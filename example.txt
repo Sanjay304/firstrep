@@ -1,0 +1,28 @@
+class A{
+class Z{
+	System.out.println("interface");
+}
+}
+interface A{
+void A();
+}
+interface B{
+void Z();
+}
+
+class B extends interface implements A,Z {
+public void A(){
+	System.out.println("a");
+}
+public void Z(){
+	System.out.println("z");
+}
+}
+
+	public static void main(String[] args) 
+	{
+		class B=new B();
+		b.a();
+		b.z();
+		b.b();
+	}
